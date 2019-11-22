@@ -1,9 +1,9 @@
 class Src < Formula
   desc "Git assistant"
   homepage ""
-  version "0.2.0"
+  version "0.3.0"
   url "https://github.com/lavrov/src/releases/download/v#{version}/src-darwin-amd64"
-  sha256 "561d5a46da7e5360bbaa07a5bc9db8c6c4537ca80192c6dc243accfe38261d5f"
+  sha256 "d835d235e70affb8a4c1437b313d2aef0bc31656aedd968ba8b08a96709ab1a5"
 
   def install
     libexec.install Dir["*"]
